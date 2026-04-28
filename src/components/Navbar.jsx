@@ -3,7 +3,7 @@ import {gsap} from "gsap";
 
 export const Navbar = () => {
     return (
-        <nav className="fixed top-0 left-0 w-full z-50 px-8 py-4 flex items-center justify-between"
+        <nav className="fixed top-0 left-0 w-full z-50 px-2 md:px-8 py-4 flex items-center justify-between"
              style={{ background: "rgba(10, 10, 20, 0.85)", backdropFilter: "blur(12px)" }}>
             <div className="text-xl font-bold tracking-wider">Cine<span className="text-purple-500">Vault</span></div>
 

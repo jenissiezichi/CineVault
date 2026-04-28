@@ -3,6 +3,7 @@ import Typed from "typed.js"
 import {useEffect, useRef} from "react";
 import {useGSAP} from "@gsap/react";
 import {Navbar} from "./Navbar.jsx";
+import {Hero} from "./Hero.jsx";
 
 
 const Landing = ({query, setQuery, handleSearch}) => {
@@ -38,7 +39,7 @@ const Landing = ({query, setQuery, handleSearch}) => {
              }}
         >
             <Navbar/>
-
+<Hero/>
             <div
                 className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 rounded-full pointer-events-none"
                 style={{
